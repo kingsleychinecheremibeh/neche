@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# lighthouse reports and cache
+*.report.html
+.lighthouse-chrome/
+.lighthouse-chrome-seo/
+.lighthouse-chrome-final/
+lighthouse-report.json
