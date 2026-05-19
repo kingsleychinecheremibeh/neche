@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://neche.dev';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://neche-three.vercel.app';
   return [
     {
       url: baseUrl,
